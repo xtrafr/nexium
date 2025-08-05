@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": "nexium-unlock-all",
+      "name": "Nexium VALORANT Unlock All",
+      "description": "Why spend hundreds on skins when you can unlock everything for the price of a knife? Unlock every skin with Nexium Skinchanger.",
+      "category": "Gaming Tools",
+      "price": "4.99 - 34.99",
+      "inStock": true,
+      "features": [
+        "Unlock All Skins",
+        "Unlock All Variations",
+        "Unlock all Sound Effects & Kill effects",
+        "Save skins"
+      ],
+      "image": "/Nexium/unlock all.webp",
+      "videos": []
+    },
+    {
+      "id": "nexium-spoofer",
+      "name": "Nexium Spoofer",
+      "description": "The spoofer alters your system's unique hardware ID, making your PC appear as an entirely different device—perfect for bypassing bans and staying undetected by anti-cheat systems.",
+      "category": "Security Tools",
+      "price": "8.99 - 47.99",
+      "inStock": true,
+      "features": [
+        "VAN 152, VAL 185, VAL 5 Bypass",
+        "TPM, HVCI, Temp Ban Bypass",
+        "Advanced ARP Spoofing",
+        "Bypass ALL Game Bans"
+      ],
+      "image": "/Nexium/woofer.webp",
+      "videos": []
+    },
+    {
+      "id": "netflix-premium",
+      "name": "Netflix Premium Lifetime",
+      "description": "Unlock unlimited entertainment with no ads, full HD, and downloads on all your devices with Netflix Premium!",
+      "category": "Streaming",
+      "price": "4.99",
+      "inStock": true,
+      "features": [
+        "Lifetime Warranty",
+        "NFA",
+        "Replacable in case of any problems",
+        "4K Ultra HD + HDR",
+        "Download your shows and movies offline"
+      ],
+      "image": "/Nexium/netflix.webp",
+      "videos": []
+    },
+    {
+      "id": "crunchyroll-premium",
+      "name": "Crunchyroll Premium Lifetime",
+      "description": "Unlock unlimited anime with no ads, new episodes one hour after Japan, and full HD streaming with Crunchyroll Premium.",
+      "category": "Streaming",
+      "price": "4.99",
+      "inStock": true,
+      "features": [
+        "Lifetime Warranty",
+        "NFA",
+        "Replacable in case of any problems",
+        "4K Ultra HD + HDR",
+        "Download your animes offline"
+      ],
+      "image": "/Nexium/crunchyroll.webp",
+      "videos": []
+    },
+    {
+      "id": "nexium-slotted",
+      "name": "Nexium Private SLOTTED VALORANT Cheat",
+      "description": "Experience next-level gameplay with our private, undetectable Valorant cheat packed with powerful features and built to stay stealthy so you dominate every match without compromise.",
+      "category": "Gaming Tools",
+      "price": "12.99 - 129.99",
+      "inStock": true,
+      "features": [
+        "Private Undetectable Cheat",
+        "Visual ESP & Chams",
+        "Advanced Aimbot System",
+        "Unlock All Skins",
+        "Third Person Mode",
+        "Custom Anti-Aim"
+      ],
+      "image": "/Nexium/slotted.webp",
+      "videos": [
+        {
+          "title": "Nexium Slotted - Gameplay Showcase 1",
+          "url": "https://www.youtube.com/embed/IBII3qi0X9U",
+          "thumbnail": "/Nexium/slotted.webp",
+          "description": "Watch our advanced features in action - Part 1"
+        },
+        {
+          "title": "Nexium Slotted - Gameplay Showcase 2",
+          "url": "https://www.youtube.com/embed/nw8DxMHsiD0",
+          "thumbnail": "/Nexium/slotted.webp",
+          "description": "Watch our advanced features in action - Part 2"
+        }
+      ]
+    },
+    {
+      "id": "nexium-vanguard-emulator",
+      "name": "Nexium VANGUARD Emulator & Internal",
+      "description": "⌛ What Are You Waiting For? Purchase Now! Emulates and disables Vanguard, gets rid of any annoying VALORANT Popups, and makes any detectable cheat undetectable by the anti-cheat system.",
+      "category": "Security Tools",
+      "price": "7.99 - 44.99",
+      "inStock": true,
+      "features": [
+        "Vanguard Emulator",
+        "Popup Bypass",
+        "Internal Cheat Included",
+        "Emulates and disables vanguard",
+        "Gets rid of any annoying VALORANT Popups",
+        "HVCI Error, Secure Boot & more bypass",
+        "Makes any detectable cheat undetectable by the ac"
+      ],
+      "image": "/Nexium/public.avif",
+      "videos": []
+    }
+  ],
+  "meta": {
+    "total": 6,
+    "lastUpdated": "2025-01-05T12:00:00Z",
+    "version": "1.0.0"
+  }
+} 

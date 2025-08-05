@@ -1,0 +1,51 @@
+{
+  "name": "nexium-services",
+  "version": "1.0.0",
+  "description": "Premium digital solutions for gaming, streaming, and security",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "vercel --prod",
+    "deploy:dev": "vercel",
+    "deploy:preview": "vercel --preview",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'",
+    "validate": "node -e \"console.log('✅ Project structure validated')\""
+  },
+  "keywords": [
+    "nexium",
+    "services",
+    "gaming",
+    "streaming",
+    "security",
+    "digital-solutions",
+    "premium-services"
+  ],
+  "author": "Nexium Services Team",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexium-services/nexium-services.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nexium-services/nexium-services/issues"
+  },
+  "homepage": "https://nexiumservices.shop",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "vercel": {
+    "buildCommand": "echo 'No build required'",
+    "outputDirectory": ".",
+    "installCommand": "echo 'No install required'"
+  }
+} 
