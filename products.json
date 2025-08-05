@@ -13,7 +13,7 @@
         "Unlock all Sound Effects & Kill effects",
         "Save skins"
       ],
-      "image": "/Nexium/unlock all.webp",
+      "image": "Nexium/unlock all.webp",
       "videos": []
     },
     {
@@ -29,7 +29,7 @@
         "Advanced ARP Spoofing",
         "Bypass ALL Game Bans"
       ],
-      "image": "/Nexium/woofer.webp",
+      "image": "Nexium/woofer.webp",
       "videos": []
     },
     {
@@ -46,7 +46,7 @@
         "4K Ultra HD + HDR",
         "Download your shows and movies offline"
       ],
-      "image": "/Nexium/netflix.webp",
+      "image": "Nexium/netflix.webp",
       "videos": []
     },
     {
@@ -63,7 +63,7 @@
         "4K Ultra HD + HDR",
         "Download your animes offline"
       ],
-      "image": "/Nexium/crunchyroll.webp",
+      "image": "Nexium/crunchyroll.webp",
       "videos": []
     },
     {
@@ -81,18 +81,18 @@
         "Third Person Mode",
         "Custom Anti-Aim"
       ],
-      "image": "/Nexium/slotted.webp",
+      "image": "Nexium/slotted.webp",
       "videos": [
         {
           "title": "Nexium Slotted - Gameplay Showcase 1",
           "url": "https://www.youtube.com/embed/IBII3qi0X9U",
-          "thumbnail": "/Nexium/slotted.webp",
+          "thumbnail": "Nexium/slotted.webp",
           "description": "Watch our advanced features in action - Part 1"
         },
         {
           "title": "Nexium Slotted - Gameplay Showcase 2",
           "url": "https://www.youtube.com/embed/nw8DxMHsiD0",
-          "thumbnail": "/Nexium/slotted.webp",
+          "thumbnail": "Nexium/slotted.webp",
           "description": "Watch our advanced features in action - Part 2"
         }
       ]
@@ -113,7 +113,7 @@
         "HVCI Error, Secure Boot & more bypass",
         "Makes any detectable cheat undetectable by the ac"
       ],
-      "image": "/Nexium/public.avif",
+      "image": "Nexium/public.avif",
       "videos": []
     }
   ],

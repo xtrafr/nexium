@@ -131,7 +131,7 @@ const productsData = [
         ],
         "inStock": true,
         "stockCount": 50,
-        "image": "../unlock all.webp"
+        "image": "Nexium/unlock all.webp"
     },
     {
         "_id": "2",
@@ -163,7 +163,7 @@ const productsData = [
         ],
         "inStock": true,
         "stockCount": 20,
-        "image": "../woofer.webp"
+        "image": "Nexium/woofer.webp"
     },
     {
         "_id": "3",
@@ -181,7 +181,7 @@ const productsData = [
         ],
         "inStock": true,
         "stockCount": 25,
-        "image": "../netflix.webp"
+        "image": "Nexium/netflix.webp"
     },
     {
         "_id": "4",
@@ -199,7 +199,7 @@ const productsData = [
         ],
         "inStock": true,
         "stockCount": 30,
-        "image": "../crunchyroll.webp"
+        "image": "Nexium/crunchyroll.webp"
     },
     {
         "_id": "5",
@@ -252,23 +252,23 @@ const productsData = [
         ],
         "inStock": true,
         "stockCount": 15,
-        "image": "../slotted.webp",
+        "image": "Nexium/slotted.webp",
         "gallery": [
-            "../slotted.webp",
-            "../slotted.webp",
-            "../slotted.webp"
+            "Nexium/slotted.webp",
+            "Nexium/slotted.webp",
+            "Nexium/slotted.webp"
         ],
         "videos": [
             {
                 "title": "Nexium Slotted - Gameplay Showcase 1",
                 "url": "https://www.youtube.com/embed/IBII3qi0X9U",
-                "thumbnail": "../slotted.webp",
+                "thumbnail": "Nexium/slotted.webp",
                 "description": "Watch our advanced features in action - Part 1"
             },
             {
                 "title": "Nexium Slotted - Gameplay Showcase 2",
                 "url": "https://www.youtube.com/embed/nw8DxMHsiD0",
-                "thumbnail": "../slotted.webp",
+                "thumbnail": "Nexium/slotted.webp",
                 "description": "Watch our advanced features in action - Part 2"
             }
         ]
@@ -295,39 +295,27 @@ const productsData = [
         ],
         "inStock": true,
         "stockCount": 3,
-        "image": "../public.avif",
+        "image": "Nexium/public.avif",
         "gallery": [
-            "../public.avif",
-            "../public.avif",
-            "../public.avif"
+            "Nexium/public.avif",
+            "Nexium/public.avif",
+            "Nexium/public.avif"
         ],
         "videos": []
     }
 ];
 
-// Load products from API endpoint
+// Load products from embedded data (API not working on Vercel)
 function loadProducts() {
     try {
-        // First try to fetch from API
-        fetch('/api/products')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Failed to fetch products');
-                }
-                return response.json();
-            })
-            .then(data => {
-                products = data;
-                renderProducts(data);
-            })
-            .catch(error => {
-                console.error('Error loading products from API:', error);
-                // Fallback to embedded data if API fails
-                loadEmbeddedProducts();
-            });
+        // Use embedded data directly since API isn't working
+        loadEmbeddedProducts();
     } catch (error) {
         console.error('Error in loadProducts:', error);
-        loadEmbeddedProducts();
+        const productsGrid = document.getElementById('productsGrid');
+        if (productsGrid) {
+            productsGrid.innerHTML = '<p class="error-message" style="text-align: center; color: #ef4444; padding: 20px;">Failed to load products. Please try again later.</p>';
+        }
     }
 }
 
